@@ -4,7 +4,7 @@ const {createBrowserRouter} = require('react-router-dom');
 const Loading = <div className="{bg-red-700}">Loading...</div>
 const Main = lazy(() => inport('../pages/MainPage'))
 
-const About = lazy(() => inport('../pages/About'))
+const About = lazy(() => inport('../pages/AboutPage'))
 
 const root = createBrowserRouter([
     {
