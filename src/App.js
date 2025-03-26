@@ -1,9 +1,10 @@
-import { root } from "postcss";
 import { RouterProvider } from "react-router-dom";
+import root from "./router/root";
 
 function App() {
   return (
-    <RouterProvider root={root}/>
+    <RouterProvider router={root}/>
+    
   );
 }
 

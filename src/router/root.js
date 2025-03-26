@@ -2,9 +2,9 @@ import { Suspense, lazy } from "react";
 const {createBrowserRouter} = require('react-router-dom');
 
 const Loading = <div className="{bg-red-700}">Loading...</div>
-const Main = lazy(() => inport('../pages/MainPage'))
+const Main = lazy(() => import('../pages/MainPage'))
 
-const About = lazy(() => inport('../pages/AboutPage'))
+const About = lazy(() => import('../pages/AboutPage'))
 
 const root = createBrowserRouter([
     {
